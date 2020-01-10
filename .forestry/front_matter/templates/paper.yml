@@ -12,9 +12,25 @@ fields:
     min: '0'
     max: 
     step: '0.01'
-    required: true
+    required: false
 - name: general
   type: include
   config: {}
   template: media
   label: General
+- name: texture_type
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - smooth
+    - coarse
+    - linen
+    - hessian
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Texture Type
