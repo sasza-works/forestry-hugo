@@ -1,4 +1,15 @@
 ---
 label: Media
 hide_body: false
-fields: []
+fields:
+- name: pricetag
+  type: number
+  label: Price Tag
+  description: Approx. price
+  default: 0
+  required: true
+  config:
+    min: '0'
+    max: 
+    step: '0.01'
+    required: true
