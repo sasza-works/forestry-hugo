@@ -13,3 +13,8 @@ fields:
     max: 
     step: '0.01'
     required: true
+- name: general
+  type: include
+  config: {}
+  template: media
+  label: General
