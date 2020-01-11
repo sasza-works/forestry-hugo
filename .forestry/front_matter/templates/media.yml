@@ -13,3 +13,7 @@ fields:
     max: 
     step: '0.01'
     required: false
+- name: brand
+  type: tag_list
+  default: []
+  label: Brand
