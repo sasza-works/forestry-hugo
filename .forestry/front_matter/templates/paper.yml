@@ -46,3 +46,5 @@ fields:
       file: types.md
       path: binder_types
   label: Compatible with
+pages:
+- media/paper1.md
