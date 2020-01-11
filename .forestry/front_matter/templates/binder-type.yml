@@ -6,3 +6,5 @@ fields:
   type: tag_list
   default: []
   label: Binder Types
+pages:
+- types.md
