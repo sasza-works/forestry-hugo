@@ -2,6 +2,11 @@
 label: Paper
 hide_body: false
 fields:
+- name: general
+  type: include
+  config: {}
+  template: media
+  label: General
 - name: weight_gsm
   type: number
   label: Weight (gsm)
@@ -13,11 +18,6 @@ fields:
     max: 
     step: '0.01'
     required: false
-- name: general
-  type: include
-  config: {}
-  template: media
-  label: General
 - name: texture_type
   type: select
   default: ''
