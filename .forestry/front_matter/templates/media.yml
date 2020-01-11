@@ -12,4 +12,4 @@ fields:
     min: '0'
     max: 
     step: '0.01'
-    required: true
+    required: false
