@@ -1,4 +1,26 @@
 ---
 label: Drawing Instrument
 hide_body: false
-fields: []
+fields:
+- name: general
+  type: include
+  config: {}
+  template: media
+  label: General
+- name: binder
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - alcohol based
+    - water based
+    - wax based
+    - oil based
+    - dry media
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Binder
