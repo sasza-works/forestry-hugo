@@ -24,3 +24,8 @@ fields:
       file: 
       path: 
   label: Binder
+- name: compatible_with
+  type: include
+  config: {}
+  template: binder-type
+  label: Compatible with
