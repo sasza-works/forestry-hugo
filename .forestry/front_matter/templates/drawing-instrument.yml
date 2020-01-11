@@ -29,3 +29,5 @@ fields:
   config: {}
   template: binder-type
   label: Compatible with
+pages:
+- content/reviews/testpen1.md
