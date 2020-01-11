@@ -14,14 +14,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: media
+  path: content/reviews
   label: Media
   create: all
   match: "**/*"
   templates:
   - drawing-instrument
   - paper
-  - media
 - type: document
   path: content/about/info.md
   label: Info Page
